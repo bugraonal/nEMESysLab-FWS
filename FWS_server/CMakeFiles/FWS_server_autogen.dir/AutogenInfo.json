@@ -92,7 +92,7 @@
 	"SOURCES" : 
 	[
 		[
-			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/main.cpp",
+			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp",
 			"MU"
 		]
 	],

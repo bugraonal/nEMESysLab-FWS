@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o"
-  "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/main.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/main.cpp.o"
+  "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

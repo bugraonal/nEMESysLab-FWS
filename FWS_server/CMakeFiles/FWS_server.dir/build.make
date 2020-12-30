@@ -89,29 +89,29 @@ CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp -o CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/FWS_server.dir/main.cpp.o: CMakeFiles/FWS_server.dir/flags.make
-CMakeFiles/FWS_server.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FWS_server.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/main.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/main.cpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: CMakeFiles/FWS_server.dir/flags.make
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FWS_server.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/main.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp
 
-CMakeFiles/FWS_server.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FWS_server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/main.cpp > CMakeFiles/FWS_server.dir/main.cpp.i
+CMakeFiles/FWS_server.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FWS_server.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp > CMakeFiles/FWS_server.dir/src/main.cpp.i
 
-CMakeFiles/FWS_server.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FWS_server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/main.cpp -o CMakeFiles/FWS_server.dir/main.cpp.s
+CMakeFiles/FWS_server.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FWS_server.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp -o CMakeFiles/FWS_server.dir/src/main.cpp.s
 
 # Object files for target FWS_server
 FWS_server_OBJECTS = \
 "CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/FWS_server.dir/main.cpp.o"
+"CMakeFiles/FWS_server.dir/src/main.cpp.o"
 
 # External object files for target FWS_server
 FWS_server_EXTERNAL_OBJECTS =
 
 FWS_server: CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o
-FWS_server: CMakeFiles/FWS_server.dir/main.cpp.o
+FWS_server: CMakeFiles/FWS_server.dir/src/main.cpp.o
 FWS_server: CMakeFiles/FWS_server.dir/build.make
 FWS_server: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.9.5
 FWS_server: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5

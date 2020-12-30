@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/main.cpp
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp
+
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp
 iostream
 -
 QCoreApplication
