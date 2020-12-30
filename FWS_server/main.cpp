@@ -1,9 +1,19 @@
 #include <iostream>
+#include <QCoreApplication>
+#include <QtSql>
 
-using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+  QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+  db.setHostName("localhost");
+  db.setUserName("emre");
+  db.setPassword("P4ss1234!");
+  bool ok = db.open();
+
+
+  std::cout << "Connection Status: " << ok << std::endl;
+
+
+  return 0;
 }

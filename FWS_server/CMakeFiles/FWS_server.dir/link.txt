@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o CMakeFiles/FWS_server.dir/main.cpp.o -o FWS_server  /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.9.5 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5 
