@@ -9,6 +9,10 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./build)
+
+
+
 find_package(Qt5 COMPONENTS Core Sql REQUIRED PATHS "${CMAKE_PREFIX_PATH}/lib/cmake/Qt5" NO_DEFAULT_PATH)
 
 include_directories(./src)

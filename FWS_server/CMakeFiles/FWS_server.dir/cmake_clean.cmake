@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o"
   "CMakeFiles/FWS_server.dir/src/main.cpp.o"
-  "FWS_server"
-  "FWS_server.pdb"
+  "build/FWS_server"
+  "build/FWS_server.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
