@@ -40,7 +40,14 @@
 	"CMAKE_SOURCE_DIR" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h",
+			"MU",
+			"UVLADIE3JM/moc_databaseconnector.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/include",
 	"MOC_COMPILATION_FILE" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp",
@@ -54,6 +61,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -91,6 +99,10 @@
 	"SETTINGS_FILE" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.cpp",
+			"MU"
+		],
 		[
 			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp",
 			"MU"

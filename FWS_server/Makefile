@@ -182,6 +182,33 @@ FWS_server_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.s
 .PHONY : FWS_server_autogen/mocs_compilation.cpp.s
 
+src/databaseconnector.o: src/databaseconnector.cpp.o
+
+.PHONY : src/databaseconnector.o
+
+# target to build an object file
+src/databaseconnector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o
+.PHONY : src/databaseconnector.cpp.o
+
+src/databaseconnector.i: src/databaseconnector.cpp.i
+
+.PHONY : src/databaseconnector.i
+
+# target to preprocess a source file
+src/databaseconnector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.i
+.PHONY : src/databaseconnector.cpp.i
+
+src/databaseconnector.s: src/databaseconnector.cpp.s
+
+.PHONY : src/databaseconnector.s
+
+# target to generate assembly for a file
+src/databaseconnector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.s
+.PHONY : src/databaseconnector.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -222,6 +249,9 @@ help:
 	@echo "... FWS_server_autogen/mocs_compilation.o"
 	@echo "... FWS_server_autogen/mocs_compilation.i"
 	@echo "... FWS_server_autogen/mocs_compilation.s"
+	@echo "... src/databaseconnector.o"
+	@echo "... src/databaseconnector.i"
+	@echo "... src/databaseconnector.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

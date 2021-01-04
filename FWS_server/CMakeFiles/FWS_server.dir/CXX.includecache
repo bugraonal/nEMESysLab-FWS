@@ -6,19 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.cpp
+databaseconnector.h
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h
+
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h
+iostream
+-
+string
+-
+vector
+-
+QtSql
+-
+QString
+-
 
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp
 iostream
 -
-QCoreApplication
+vector
 -
-QtSql
+QDebug
 -
+databaseconnector.h
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication
-qcoreapplication.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
@@ -27,6 +43,10 @@ qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
 qscopedpointer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+qstring.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
 qstringlist.h
