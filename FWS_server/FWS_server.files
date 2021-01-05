@@ -1,0 +1,4 @@
+CMakeLists.txt
+src/databaseconnector.cpp
+src/databaseconnector.h
+src/main.cpp
