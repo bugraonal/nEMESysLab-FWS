@@ -3,7 +3,7 @@
 DROP TABLE IF EXISTS Appointments;
 DROP TABLE IF EXISTS Users;
 DROP TABLE IF EXISTS FPGA;
-
+DROP TABLE IF EXISTS TimesOfDay;
 
 CREATE TABLE Users(
   user_id INT UNIQUE NOT NULL AUTO_INCREMENT,
@@ -29,4 +29,9 @@ CREATE TABLE Appointments(
   PRIMARY KEY (user_id, fpga_id, appointment),
   FOREIGN KEY (user_id) REFERENCES Users(user_id),
   FOREIGN KEY (fpga_id) REFERENCES FPGA(fpga_id)
+);
+
+CREATE TABLE TimesOfDay(
+timeofday TIME UNIQUE NOT NULL,
+PRIMARY KEY (timeofday)
 );

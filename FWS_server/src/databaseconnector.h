@@ -19,11 +19,13 @@ private:
     static DataBaseConnector *dbc;
     QSqlDatabase db;
     DataBaseConnector();
+    std::string field2String(auto s);
 public:
     static DataBaseConnector *getInstance();
     QSqlDatabase getDatabase();
     std::vector<std::string> getAllUsers();
     void initFileBase();
+    std::vector<std::string> getTodaysHours();
 };
 
 #endif // DATABASECONNECTOR_H
