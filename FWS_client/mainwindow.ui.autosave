@@ -25,35 +25,35 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_4">
        <item row="2" column="0">
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="fileRemoveButton">
          <property name="text">
           <string>Remove</string>
          </property>
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="fileAddButton">
          <property name="text">
           <string>Add...</string>
          </property>
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="programButton">
          <property name="text">
           <string>Program</string>
          </property>
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="connectButton">
          <property name="text">
           <string>Connect</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0" colspan="2">
-        <widget class="QListView" name="listView_2"/>
+        <widget class="QListView" name="fileList"/>
        </item>
        <item row="0" column="0">
         <widget class="QLabel" name="label_3">
@@ -63,7 +63,7 @@
         </widget>
        </item>
        <item row="4" column="0" rowspan="2">
-        <widget class="QFrame" name="frame_3">
+        <widget class="QFrame" name="connectionFrame">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -72,14 +72,14 @@
          </property>
          <layout class="QGridLayout" name="gridLayout_3">
           <item row="0" column="0">
-           <widget class="QLabel" name="label_4">
+           <widget class="QLabel" name="appointmentStatusLabel">
             <property name="text">
              <string>Not Appointment time</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="label_2">
+           <widget class="QLabel" name="connectionStatusLabel">
             <property name="text">
              <string>Not connected</string>
             </property>
@@ -100,27 +100,34 @@
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Appointments</string>
+         </property>
+        </widget>
+       </item>
        <item row="1" column="0" colspan="2">
-        <widget class="QListView" name="listView"/>
+        <widget class="QListView" name="appointmentList"/>
        </item>
        <item row="2" column="0">
-        <widget class="QDateTimeEdit" name="dateTimeEdit">
+        <widget class="QDateTimeEdit" name="apoitnmentDateTime">
          <property name="calendarPopup">
           <bool>true</bool>
          </property>
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="getAppoitnmentButton">
          <property name="text">
           <string>Get apponintment</string>
          </property>
         </widget>
        </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label">
+       <item row="3" column="0">
+        <widget class="QLabel" name="appoitnmentGetLabel">
          <property name="text">
-          <string>Appointments</string>
+          <string>TextLabel</string>
          </property>
         </widget>
        </item>
@@ -138,8 +145,20 @@
      <height>20</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionLogin"/>
+   </widget>
+   <addaction name="menuMenu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLogin">
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

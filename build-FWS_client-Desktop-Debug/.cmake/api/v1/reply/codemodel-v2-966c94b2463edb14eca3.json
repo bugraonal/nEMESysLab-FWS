@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FWS_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FWS_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FWS_client-Debug-47bf1558877daffa69a4.json",
+					"name" : "FWS_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FWS_client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FWS_client_autogen-Debug-47d667fb4edabdea05ee.json",
+					"name" : "FWS_client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FWS_client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FWS_client_autogen_timestamp_deps-Debug-90e4e8171166ab6904f6.json",
+					"name" : "FWS_client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug",
+		"source" : "/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

@@ -1,0 +1,6 @@
+# ninja log v5
+0	10	1609919699	FWS_server_autogen/timestamp	595ad387d5dcf016
+10	19	1609919699	CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o	6d8b035d57f5602
+10	1431	1609919701	CMakeFiles/FWS_server.dir/src/main.cpp.o	df37e576fc68e3e3
+11	1459	1609919701	CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o	a44d3fe4887664db
+1459	1567	1609919701	build/FWS_server	fffee37b6f5383f6

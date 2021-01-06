@@ -1,0 +1,11 @@
+# ninja log v5
+0	87	1609919733	FWS_client_autogen/timestamp	15e807a03e20bff4
+87	713	1609919734	CMakeFiles/FWS_client.dir/FWS_client_autogen/mocs_compilation.cpp.o	82a54aa6e04e8409
+87	801	1609919734	CMakeFiles/FWS_client.dir/main.cpp.o	d2f1dc3323c63ee
+87	901	1609919734	CMakeFiles/FWS_client.dir/mainwindow.cpp.o	faba26b26aec4e8d
+901	1117	1609919734	FWS_client	af30af7214f9441a
+1	9	1609919790	FWS_client_autogen/timestamp	15e807a03e20bff4
+10	592	1609919791	CMakeFiles/FWS_client.dir/FWS_client_autogen/mocs_compilation.cpp.o	82a54aa6e04e8409
+592	788	1609919791	FWS_client	af30af7214f9441a
+1	793	1609921332	CMakeFiles/FWS_client.dir/mainwindow.cpp.o	faba26b26aec4e8d
+793	995	1609921332	FWS_client	af30af7214f9441a

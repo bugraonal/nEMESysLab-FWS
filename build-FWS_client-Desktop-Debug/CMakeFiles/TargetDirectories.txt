@@ -1,0 +1,5 @@
+/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug/CMakeFiles/FWS_client.dir
+/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug/CMakeFiles/FWS_client_autogen_timestamp_deps.dir
+/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug/CMakeFiles/FWS_client_autogen.dir
