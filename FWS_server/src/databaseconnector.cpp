@@ -22,7 +22,7 @@ QSqlDatabase DataBaseConnector::getDatabase(){
 
 std::vector<std::string> DataBaseConnector::getAllUsers() {
   std::vector<std::string> vec;
-  QSqlQuery query("SELECT user_name,user_surname FROM Users;",db);
+  QSqlQuery query("SELECT user_name,user_surname FROM Users;");
   // qDebug() << query.lastError();
   while (query.next()){
     QString name = query.value(0).toString();
@@ -33,3 +33,12 @@ std::vector<std::string> DataBaseConnector::getAllUsers() {
   return vec;
 }
 
+
+void DataBaseConnector::initFileBase(){
+  QSqlQuery query("SELECT fpga_id FROM FPGA;");
+  while (query.next()){
+    std::string id = query.value(0).toString().toUtf8().constData();
+    if(mkdir(id.c_str(), 1777) == -1)
+      std::cerr << "Error: Couldn't initialize file base" << std::endl;
+  }
+}
