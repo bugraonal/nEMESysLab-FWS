@@ -30,5 +30,7 @@ add_executable(FWS_client
   filescontroller.cpp
   filescontroller.h
 
+  picosha2.h
+
   )
 target_link_libraries(FWS_client PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
