@@ -2,9 +2,6 @@
 #define FILESMODEL_H
 
 
-#include <vector>
-#include <alogrithm>
-
 #include <QString>
 #include <QFile>
 
@@ -16,11 +13,11 @@ public:
     void addFile(QString fileName);
     void removeFile(QString fileName);
 
-    std::vector<QFile> getFileList();
+    QVector<QFile> getFileList();
 
 
 private:
-    std::vector<QFile> files;
+    QVector<QFile> files;
 
 };
 
