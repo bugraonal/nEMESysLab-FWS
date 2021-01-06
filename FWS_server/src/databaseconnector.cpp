@@ -22,14 +22,36 @@ QSqlDatabase DataBaseConnector::getDatabase(){
 
 std::vector<std::string> DataBaseConnector::getAllUsers() {
   std::vector<std::string> vec;
-  QSqlQuery query("SELECT user_name,user_surname FROM Users;",db);
+  QSqlQuery query("SELECT user_name,user_surname FROM Users;");
   // qDebug() << query.lastError();
   while (query.next()){
-    QString name = query.value(0).toString();
-    QString surname = query.value(1).toString();
-    name.append(" ").append(surname);
-    vec.push_back(name.toUtf8().constData());
+    std::string name = field2String(query.value(0));//.toString();
+    std::string surname = field2String(query.value(1));//.toString();
+    vec.push_back(name + " " + surname);//name.toUtf8().constData());
   }
   return vec;
 }
 
+
+void DataBaseConnector::initFileBase(){
+  QSqlQuery query("SELECT fpga_id FROM FPGA;");
+  while (query.next()){
+    std::string id = field2String(query.value(0));
+    if(mkdir(id.c_str(), 0777) == -1)
+      std::cerr << "Error: Couldn't initialize file base" << std::endl;
+  }
+}
+
+std::vector<std::string>  DataBaseConnector::getTodaysHours(){
+  std::vector<std::string> vec;
+  QSqlQuery query("SELECT * FROM TimesOfDay WHERE timeofday>time(now()) AND timeofday NOT IN(SELECT TIME(appointment) FROM Appointments WHERE DATE(appointment) = DATE(now()));");
+  while (query.next()){
+    std::string time = field2String(query.value(0));
+    vec.push_back(time);
+  }
+  return vec;
+}
+
+std::string DataBaseConnector::field2String(auto s) {
+  return s.toString().toUtf8().constData();
+}

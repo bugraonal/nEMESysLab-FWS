@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 
-#include <QDebug>
-
 #include "databaseconnector.h"
 
 
@@ -15,11 +13,20 @@ int main()
   DataBaseConnector *dbc = dbc->getInstance();
   QSqlDatabase db = dbc->getDatabase();
   bool ok = db.isOpen();
-  std::cout << "Connection Status: " << ok << std::endl;
+  std::cout << "Connection Status: " << ok << "\n";
   
-  std::cout << "#Printing All Users#" << std::endl; 
+  std::cout << "#Printing All Users#" << "\n"; 
   auto users = dbc->getAllUsers();
   for (auto user : users)
-  std::cout << user << std::endl;
+    std::cout << user << "\n";
+
+
+  std::cout << "\n\n";
+//  dbc->initFileBase();
+  std::cout << "#Available Hours#\n";
+  auto times = dbc->getTodaysHours();
+  for (auto time : times)
+    std::cout << time << "\n";
+
   return 0;
 }

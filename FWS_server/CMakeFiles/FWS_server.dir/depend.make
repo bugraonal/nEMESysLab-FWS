@@ -256,7 +256,6 @@ CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux
 
 CMakeFiles/FWS_server.dir/src/main.cpp.o: src/databaseconnector.h
 CMakeFiles/FWS_server.dir/src/main.cpp.o: src/main.cpp
-CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
