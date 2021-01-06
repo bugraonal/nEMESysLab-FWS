@@ -10,7 +10,7 @@ CREATE TABLE Users(
   user_name VARCHAR(20) NOT NULL,
   user_surname VARCHAR(20) NOT NULL,
   user_email VARCHAR(40) UNIQUE NOT NULL,
-  user_password VARCHAR(40) NOT NULL, 
+  user_password VARCHAR(64) NOT NULL, 
   user_type CHAR(1) NOT NULL, -- S for student, T for teacher
   PRIMARY KEY (user_id)
 );
