@@ -26,6 +26,7 @@ public:
     std::vector<std::string> getAllUsers();
     void initFileBase();
     std::vector<std::string> getTodaysHours();
+    std::string getRemainingSeconds();
 };
 
 #endif // DATABASECONNECTOR_H

@@ -1,12 +1,10 @@
 #include "databaseconnector.h"
 #include "filesystemcontroller.h"
 
-
 FileSystemController* FileSystemController::fsc = nullptr;
 DataBaseConnector* DataBaseConnector::dbc = nullptr;
 int main()
 {
-  
   // Initialize Database  
   DataBaseConnector *dbc = dbc->getInstance();
   bool ok = dbc->isOpen();
@@ -30,7 +28,10 @@ int main()
 //    std::cout << time << "\n";
   
   std::string fpga_id = "1";
-  fsc->removeVerilogFiles(fpga_id); 
+  std::string seconds = "2";
+//  fsc->resetFiles(fpga_id); 
 
+  fsc->executeImplementCommand(fpga_id, seconds);
+  
   return 0;
 }

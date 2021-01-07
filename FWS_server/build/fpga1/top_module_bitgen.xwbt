@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/build/fpga1/top_module.ncd
+OUTFILE=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/build/fpga1/top_module.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/build/fpga1
+LICENSE=ISE
+USER_INFO=211438387_0_0_868

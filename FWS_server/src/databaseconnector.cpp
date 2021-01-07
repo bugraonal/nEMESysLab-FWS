@@ -48,6 +48,14 @@ std::vector<std::string>  DataBaseConnector::getTodaysHours(){
   return vec;
 }
 
+std::string DataBaseConnector::getRemainingSeconds(){
+  std::string seconds;
+  QSqlQuery query("select TIME_TO_SEC(SUBTIME(timeofday, time(now()) + interval 1 minute)) from TimesOfDay where timeofday>time(now()) and timeofday< time(now()) + interval 30 minute;");
+  while (query.next())
+    seconds = field2String(query.value(0));
+  return seconds;
+}
+
 bool DataBaseConnector::isOpen(){
     return db.isOpen();
 }
