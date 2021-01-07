@@ -24,11 +24,21 @@ add_executable(FWS_client
   loginwindow.h
   loginwindow.ui
 
-#  filesmodel.cpp
-#  filesmodel.h
+  filesmodel.cpp
+  filesmodel.h
 
   filescontroller.cpp
   filescontroller.h
+
+  filelist.cpp
+  filelist.h
+
+  appointmentsview.cpp
+  appointmentsview.h
+  appointmentsview.ui
+
+  appointmentsmodel.cpp
+  appointmentsmodel.h
 
   picosha2.h
 
