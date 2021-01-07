@@ -35,7 +35,10 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
 		"/usr/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
-		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake"
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake",
+		"/usr/share/cmake-3.19/Modules/FindBoost.cmake",
+		"/usr/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.19/Modules/FindPackageMessage.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server",
 	"DEP_FILE" : "",
@@ -46,6 +49,11 @@
 			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h",
 			"MU",
 			"UVLADIE3JM/moc_databaseconnector.cpp"
+		],
+		[
+			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.h",
+			"MU",
+			"UVLADIE3JM/moc_filesystemcontroller.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -61,19 +69,20 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/lib/cmake/Qt5Sql",
 		"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/x86_64-linux-gnu/qt5/QtSql",
+		"/usr/include",
 		"/usr/include/c++/7",
 		"/usr/include/x86_64-linux-gnu/c++/7",
 		"/usr/include/c++/7/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
 		"/usr/local/include",
 		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -101,6 +110,10 @@
 	[
 		[
 			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.cpp",
+			"MU"
+		],
+		[
+			"/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.cpp",
 			"MU"
 		],
 		[

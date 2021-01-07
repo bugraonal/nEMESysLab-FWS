@@ -254,7 +254,11 @@ CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
+CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o: src/filesystemcontroller.cpp
+CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o: src/filesystemcontroller.h
+
 CMakeFiles/FWS_server.dir/src/main.cpp.o: src/databaseconnector.h
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/filesystemcontroller.h
 CMakeFiles/FWS_server.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer

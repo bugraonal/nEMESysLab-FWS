@@ -1,4 +1,6 @@
 CMakeLists.txt
 src/databaseconnector.cpp
 src/databaseconnector.h
+src/filesystemcontroller.cpp
+src/filesystemcontroller.h
 src/main.cpp

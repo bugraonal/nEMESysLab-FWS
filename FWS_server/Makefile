@@ -209,6 +209,33 @@ src/databaseconnector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.s
 .PHONY : src/databaseconnector.cpp.s
 
+src/filesystemcontroller.o: src/filesystemcontroller.cpp.o
+
+.PHONY : src/filesystemcontroller.o
+
+# target to build an object file
+src/filesystemcontroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o
+.PHONY : src/filesystemcontroller.cpp.o
+
+src/filesystemcontroller.i: src/filesystemcontroller.cpp.i
+
+.PHONY : src/filesystemcontroller.i
+
+# target to preprocess a source file
+src/filesystemcontroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.i
+.PHONY : src/filesystemcontroller.cpp.i
+
+src/filesystemcontroller.s: src/filesystemcontroller.cpp.s
+
+.PHONY : src/filesystemcontroller.s
+
+# target to generate assembly for a file
+src/filesystemcontroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.s
+.PHONY : src/filesystemcontroller.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -252,6 +279,9 @@ help:
 	@echo "... src/databaseconnector.o"
 	@echo "... src/databaseconnector.i"
 	@echo "... src/databaseconnector.s"
+	@echo "... src/filesystemcontroller.o"
+	@echo "... src/filesystemcontroller.i"
+	@echo "... src/filesystemcontroller.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
