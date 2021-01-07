@@ -52,6 +52,6 @@ std::vector<std::string>  DataBaseConnector::getTodaysHours(){
   return vec;
 }
 
-std::string DataBaseConnector::field2String(auto s) {
+std::string DataBaseConnector::field2String(QVariant s) {
   return s.toString().toUtf8().constData();
 }
