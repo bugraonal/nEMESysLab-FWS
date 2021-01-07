@@ -9,7 +9,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./build)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./build)#../build-FWS_server-Desktop-Debug)
 #set(CMAKE_PREFIX_PATH /media/SharedFiles/ProgramFiles/Qt/5.15.0/gcc_64)
 
 # Libraries

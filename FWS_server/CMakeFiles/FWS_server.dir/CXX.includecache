@@ -6,5 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.cpp
+filesystemcontroller.h
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.h
+
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.h
+iostream
+-
+vector
+-
+string
+-
+cstdio
+-
+boost/filesystem.hpp
+-
 

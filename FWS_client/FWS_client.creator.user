@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.2, 2020-12-11T18:13:58. -->
+<!-- Written by QtCreator 4.14.0, 2021-01-06T20:07:08. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -71,6 +71,7 @@
    <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
    <value type="QString" key="ClangCodeModel.WarningConfigId">Builtin.Questionable</value>
    <valuemap type="QVariantMap" key="ClangTools">
+    <value type="bool" key="ClangTools.AnalyzeOpenFiles">false</value>
     <value type="bool" key="ClangTools.BuildBeforeAnalysis">true</value>
     <value type="QString" key="ClangTools.DiagnosticConfig">Builtin.DefaultTidyAndClazy</value>
     <value type="int" key="ClangTools.ParallelJobs">4</value>
@@ -98,10 +99,6 @@
       <valuelist type="QVariantList" key="GenericProjectManager.GenericMakeStep.BuildTargets">
        <value type="QString">all</value>
       </valuelist>
-      <value type="bool" key="GenericProjectManager.GenericMakeStep.Clean">false</value>
-      <value type="QString" key="GenericProjectManager.GenericMakeStep.MakeArguments"></value>
-      <value type="QString" key="GenericProjectManager.GenericMakeStep.MakeCommand"></value>
-      <value type="bool" key="GenericProjectManager.GenericMakeStep.OverrideMakeflags">false</value>
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">GenericProjectManager.GenericMakeStep</value>
      </valuemap>
@@ -115,10 +112,6 @@
       <valuelist type="QVariantList" key="GenericProjectManager.GenericMakeStep.BuildTargets">
        <value type="QString">clean</value>
       </valuelist>
-      <value type="bool" key="GenericProjectManager.GenericMakeStep.Clean">true</value>
-      <value type="QString" key="GenericProjectManager.GenericMakeStep.MakeArguments"></value>
-      <value type="QString" key="GenericProjectManager.GenericMakeStep.MakeCommand"></value>
-      <value type="bool" key="GenericProjectManager.GenericMakeStep.OverrideMakeflags">false</value>
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">GenericProjectManager.GenericMakeStep</value>
      </valuemap>
@@ -148,7 +141,6 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.DefaultDeployConfiguration</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
-   <valuemap type="QVariantMap" key="ProjectExplorer.Target.PluginSettings"/>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
     <valuelist type="QVariantList" key="Analyzer.Perf.Events">
@@ -210,19 +202,12 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey"></value>
-    <value type="QString" key="RunConfiguration.Arguments"></value>
-    <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
-    <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">false</value>
-    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">false</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default"></value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

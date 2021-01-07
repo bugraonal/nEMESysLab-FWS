@@ -16,10 +16,6 @@ DataBaseConnector* DataBaseConnector::getInstance(){
   return dbc;
 }
 
-QSqlDatabase DataBaseConnector::getDatabase(){
-  return db;
-}
-
 std::vector<std::string> DataBaseConnector::getAllUsers() {
   std::vector<std::string> vec;
   QSqlQuery query("SELECT user_name,user_surname FROM Users;");
@@ -52,6 +48,14 @@ std::vector<std::string>  DataBaseConnector::getTodaysHours(){
   return vec;
 }
 
+bool DataBaseConnector::isOpen(){
+    return db.isOpen();
+}
+
+
+
 std::string DataBaseConnector::field2String(QVariant s) {
   return s.toString().toUtf8().constData();
 }
+
+

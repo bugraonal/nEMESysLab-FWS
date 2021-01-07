@@ -9,10 +9,13 @@ int main()
   
   // Initialize Database  
   DataBaseConnector *dbc = dbc->getInstance();
-  QSqlDatabase db = dbc->getDatabase();
-  bool ok = db.isOpen();
+  bool ok = dbc->isOpen();
   std::cout << "Connection Status: " << ok << "\n";
-  
+
+  // Initialize File System
+  FileSystemController *fsc = fsc->getInstance();
+
+
 //  std::cout << "#Printing All Users#" << "\n"; 
 //  auto users = dbc->getAllUsers();
 //  for (auto user : users)
@@ -25,8 +28,9 @@ int main()
 //  auto times = dbc->getTodaysHours();
 //  for (auto time : times)
 //    std::cout << time << "\n";
+  
+  std::string fpga_id = "1";
+  fsc->removeVerilogFiles(fpga_id); 
 
-  bool result = fs::remove("./1/*.txt");
-  std::cout << result << "\n";
   return 0;
 }

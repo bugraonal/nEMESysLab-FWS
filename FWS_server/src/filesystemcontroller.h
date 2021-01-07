@@ -1,6 +1,9 @@
 #ifndef FILESYSTEMCONTROLLER_H
 #define FILESYSTEMCONTROLLER_H
 
+#include <iostream>
+#include <vector>
+#include <string>
 #include <cstdio>
 #include <boost/filesystem.hpp>
 
@@ -13,6 +16,7 @@ private:
     FileSystemController();
 public:
     static FileSystemController* getInstance();
+    void removeVerilogFiles(std::string directory);
 };
 
 #endif // FILESYSTEMCONTROLLER_H

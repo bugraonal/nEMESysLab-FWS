@@ -22,7 +22,7 @@ private:
     std::string field2String(QVariant s);
 public:
     static DataBaseConnector *getInstance();
-    QSqlDatabase getDatabase();
+    bool isOpen();
     std::vector<std::string> getAllUsers();
     void initFileBase();
     std::vector<std::string> getTodaysHours();

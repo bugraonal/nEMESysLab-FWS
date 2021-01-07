@@ -4,7 +4,8 @@
 
 TEMPLATE = app
 TARGET = FWS_server
-INCLUDEPATH += .
+INCLUDEPATH += . \
+               /usr/include/boost
 
 # The following define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
@@ -21,7 +22,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 HEADERS += src/databaseconnector.h src/filesystemcontroller.h
 SOURCES += src/databaseconnector.cpp \
            src/filesystemcontroller.cpp \
-           src/main.cpp \
-           CMakeFiles/3.19.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+           src/main.cpp
 
 QT += core sql
+
+LIBS += -L/usr/include/boost -lboost_system
+LIBS += -L/usr/include/boost -lboost_filesystem
