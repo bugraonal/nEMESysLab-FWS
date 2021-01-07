@@ -1,32 +1,36 @@
-#include <iostream>
-#include <vector>
-
 #include "databaseconnector.h"
+#include "filesystemcontroller.h"
 
 
-
-DataBaseConnector *DataBaseConnector::dbc = nullptr;
+FileSystemController* FileSystemController::fsc = nullptr;
+DataBaseConnector* DataBaseConnector::dbc = nullptr;
 int main()
 {
   
   // Initialize Database  
   DataBaseConnector *dbc = dbc->getInstance();
-  QSqlDatabase db = dbc->getDatabase();
-  bool ok = db.isOpen();
+  bool ok = dbc->isOpen();
   std::cout << "Connection Status: " << ok << "\n";
-  
-  std::cout << "#Printing All Users#" << "\n"; 
-  auto users = dbc->getAllUsers();
-  for (auto user : users)
-    std::cout << user << "\n";
+
+  // Initialize File System
+  FileSystemController *fsc = fsc->getInstance();
 
 
-  std::cout << "\n\n";
+//  std::cout << "#Printing All Users#" << "\n"; 
+//  auto users = dbc->getAllUsers();
+//  for (auto user : users)
+//    std::cout << user << "\n";
+
+
+//  std::cout << "\n\n";
 //  dbc->initFileBase();
-  std::cout << "#Available Hours#\n";
-  auto times = dbc->getTodaysHours();
-  for (auto time : times)
-    std::cout << time << "\n";
+//  std::cout << "#Available Hours#\n";
+//  auto times = dbc->getTodaysHours();
+//  for (auto time : times)
+//    std::cout << time << "\n";
+  
+  std::string fpga_id = "1";
+  fsc->removeVerilogFiles(fpga_id); 
 
   return 0;
 }

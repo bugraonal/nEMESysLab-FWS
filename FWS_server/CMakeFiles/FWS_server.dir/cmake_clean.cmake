@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "FWS_server_autogen"
   "CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o"
+  "CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o"
   "CMakeFiles/FWS_server.dir/src/main.cpp.o"
   "build/FWS_server"
   "build/FWS_server.pdb"
