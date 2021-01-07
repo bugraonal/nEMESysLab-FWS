@@ -3,8 +3,6 @@
 
 #include <QMainWindow>
 
-#include "loginwindow.h"
-
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -19,5 +17,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+signals:
+    void loginWindow();
 };
 #endif // MAINWINDOW_H

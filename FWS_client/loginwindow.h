@@ -2,6 +2,9 @@
 #define LOGINWINDOW_H
 
 #include <QDialog>
+#include <QDialogButtonBox>
+#include <QPushButton>
+#include "picosha2.h"
 
 namespace Ui {
 class LoginWindow;
@@ -17,6 +20,20 @@ public:
 
 private:
     Ui::LoginWindow *ui;
+
+    QString hashPassword(QString pass);
+
+    void onAccept();
+    void onRegister();
+    QString makeCredentials();
+
+
+signals:
+
+    void login(QString credentials);
+    void registerUser(QString credentials);
+
+
 };
 
 #endif // LOGINWINDOW_H
