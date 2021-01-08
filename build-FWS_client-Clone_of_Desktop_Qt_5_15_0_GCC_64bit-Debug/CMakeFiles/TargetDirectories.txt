@@ -1,0 +1,5 @@
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/build-FWS_client-Clone_of_Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/build-FWS_client-Clone_of_Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/build-FWS_client-Clone_of_Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/FWS_client.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/build-FWS_client-Clone_of_Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/FWS_client_autogen_timestamp_deps.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/build-FWS_client-Clone_of_Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/FWS_client_autogen.dir
