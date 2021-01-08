@@ -8,8 +8,8 @@ class AppointmentDTO : public DTOInterface {
 
 public:
 
-    AppointmentDTO(QTime appointment) {
-        this-> data = appointment.toString().toStdString();
+    AppointmentDTO(QString appointment) {
+        this-> data = appointment.toStdString();
     }
 };
 

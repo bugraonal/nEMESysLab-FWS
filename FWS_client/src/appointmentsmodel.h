@@ -7,18 +7,20 @@
 #include "serverconnection.h"
 
 #include "DTO/appointmentdto.h"
+#include "DTO/commanddto.h"
 
 class AppointmentsModel
 {
 public:
     AppointmentsModel(ServerConnection &connection);
 
-    QVector<QTime> getAppointments();
-    bool addAppointment(QTime appointment);
-    void removeAppointment(QTime appointment);
+    QVector<QString> getAppointments();
+    bool addAppointment(QString appointment);
+    void removeAppointment(QString appointment);
+    QVector<QString> getTimeSlots();
 
 private:
-    QVector<QTime> appointments;
+    QVector<QString> appointments;
     ServerConnection &connection;
 };
 
