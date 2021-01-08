@@ -98,6 +98,28 @@ std::vector<std::string> DataBaseConnector::getFPGAIDS(){
   return vec;
 }
 
+std::string DataBaseConnector::checkLogin(std::string email, std::string pwd){
+  std::string result;
+  QSqlQuery query;
+  query.prepare("SELECT COUNT(*) FROM Users WHERE user_email = ? AND user_password = ?");
+  query.addBindValue(email.c_str());
+  query.addBindValue(pwd.c_str());
+  query.exec();
+  while(query.next())
+    result = field2String(query.value(0));
+  return result;
+}
+
+int DataBaseConnector::getFPGAbyUserID(std::string user_id) {
+  int result;
+  QSqlQuery query;
+  query.prepare("SELECT appointment,fpga_id FROM Appointments WHERE user_id = ? AND appointment > (NOW() - INTERVAL 29 MINUTE) LIMIT 1;");
+  query.exec();
+  while(query.next()){
+    result = std::stoi(field2String(query.next()));
+  }
+  return result;
+}
 
 bool DataBaseConnector::isOpen(){
     return db.isOpen();
