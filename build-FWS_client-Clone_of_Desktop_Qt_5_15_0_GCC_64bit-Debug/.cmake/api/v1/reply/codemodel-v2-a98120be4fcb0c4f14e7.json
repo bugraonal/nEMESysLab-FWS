@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FWS_client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FWS_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FWS_client-Debug-7d298f1eb0bc1939f015.json",
+					"name" : "FWS_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FWS_client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FWS_client_autogen-Debug-f008a8dd316e35060814.json",
+					"name" : "FWS_client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FWS_client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FWS_client_autogen_timestamp_deps-Debug-d313e6a93f5f6eee3432.json",
+					"name" : "FWS_client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/build-FWS_client-Clone_of_Desktop_Qt_5_15_0_GCC_64bit-Debug",
+		"source" : "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

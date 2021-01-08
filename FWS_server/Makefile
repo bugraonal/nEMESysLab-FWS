@@ -452,6 +452,33 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/serverhandler.o: src/serverhandler.cpp.o
+
+.PHONY : src/serverhandler.o
+
+# target to build an object file
+src/serverhandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o
+.PHONY : src/serverhandler.cpp.o
+
+src/serverhandler.i: src/serverhandler.cpp.i
+
+.PHONY : src/serverhandler.i
+
+# target to preprocess a source file
+src/serverhandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/serverhandler.cpp.i
+.PHONY : src/serverhandler.cpp.i
+
+src/serverhandler.s: src/serverhandler.cpp.s
+
+.PHONY : src/serverhandler.s
+
+# target to generate assembly for a file
+src/serverhandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/serverhandler.cpp.s
+.PHONY : src/serverhandler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -495,6 +522,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/serverhandler.o"
+	@echo "... src/serverhandler.i"
+	@echo "... src/serverhandler.s"
 .PHONY : help
 
 

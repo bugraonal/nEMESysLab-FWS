@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o"
   "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgapool.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o"
   "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/src/main.cpp.o"
+  "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/serverhandler.cpp" "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,6 +33,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "./src"
   "./src/fpga"
   "./src/commands"
+  "./include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

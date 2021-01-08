@@ -449,3 +449,19 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb337/fast && make[1]: Entering directory '/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_bb337.dir/build.make CMakeFiles/cmTC_bb337.dir/build
+make[2]: Entering directory '/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb337.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_bb337.dir/CheckIncludeFile.cxx.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_bb337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb337.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_bb337.dir/CheckIncludeFile.cxx.o -o cmTC_bb337 
+make[2]: Leaving directory '/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles/CMakeTmp'
+
+
+

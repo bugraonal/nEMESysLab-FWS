@@ -1,0 +1,4 @@
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_client/CMakeFiles/rebuild_cache.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_client/CMakeFiles/FWS_client.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_client/CMakeFiles/edit_cache.dir
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_client/CMakeFiles/FWS_client_autogen.dir
