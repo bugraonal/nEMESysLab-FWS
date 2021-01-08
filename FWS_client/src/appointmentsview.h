@@ -25,6 +25,7 @@ private:
 
     void addAppointment();
     void removeAppointment();
+    void refresh();
 
 };
 
