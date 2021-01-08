@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NO_DEBUG -DQT_SQL_LIB
 
-CXX_INCLUDES = -I/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/include -I/lib/cmake/Qt5Sql -I/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/./src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql
+CXX_INCLUDES = -I/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/include -I/lib/cmake/Qt5Sql -I/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/./src -I/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/./src/fpga -I/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/./src/commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql
 
 CXX_FLAGS = -fPIC -std=gnu++1z
 

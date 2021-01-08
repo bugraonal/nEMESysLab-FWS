@@ -3,8 +3,34 @@
 
 CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o: FWS_server_autogen/mocs_compilation.cpp
 
+CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o: src/commands/command.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o: src/commands/fpgaGenerateProgrammingFileCommand.cpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o: src/commands/fpgaGenerateProgrammingFileCommand.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o: src/fpga/fpga.hpp
+
+CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o: src/commands/command.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o: src/commands/fpgaImplementDesignCommand.cpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o: src/commands/fpgaImplementDesignCommand.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o: src/fpga/fpga.hpp
+
+CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o: src/commands/command.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o: src/commands/fpgaRebuildProjectCommand.cpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o: src/commands/fpgaRebuildProjectCommand.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o: src/fpga/fpga.hpp
+
+CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o: src/commands/command.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o: src/commands/fpgaResetFilesCommand.cpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o: src/commands/fpgaResetFilesCommand.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o: src/fpga/fpga.hpp
+
+CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o: src/commands/command.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o: src/commands/fpgaSynthesizeDesignCommand.cpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o: src/commands/fpgaSynthesizeDesignCommand.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o: src/fpga/fpga.hpp
+
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: src/databaseconnector.cpp
-CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: src/databaseconnector.h
+CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: src/databaseconnector.hpp
+CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
@@ -255,11 +281,27 @@ CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
 CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o: src/filesystemcontroller.cpp
-CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o: src/filesystemcontroller.h
+CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o: src/filesystemcontroller.hpp
 
-CMakeFiles/FWS_server.dir/src/main.cpp.o: src/databaseconnector.h
-CMakeFiles/FWS_server.dir/src/main.cpp.o: src/filesystemcontroller.h
+CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o: src/fpga/fpga.cpp
+CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o: src/fpga/fpga.hpp
+
+CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o: src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o: src/fpga/fpgapool.cpp
+CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o: src/fpga/fpgapool.hpp
+
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/commands/command.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/commands/fpgaGenerateProgrammingFileCommand.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/commands/fpgaImplementDesignCommand.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/commands/fpgaRebuildProjectCommand.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/commands/fpgaResetFilesCommand.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/commands/fpgaSynthesizeDesignCommand.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/databaseconnector.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/filesystemcontroller.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: src/fpga/fpgapool.hpp
 CMakeFiles/FWS_server.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
 CMakeFiles/FWS_server.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString

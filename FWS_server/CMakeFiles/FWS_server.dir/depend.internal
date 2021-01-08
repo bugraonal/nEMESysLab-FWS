@@ -3,9 +3,35 @@
 
 CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.o
  /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/FWS_server_autogen/mocs_compilation.cpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/command.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaGenerateProgrammingFileCommand.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaGenerateProgrammingFileCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/command.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaImplementDesignCommand.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaImplementDesignCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/command.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaRebuildProjectCommand.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaRebuildProjectCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/command.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaResetFilesCommand.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaResetFilesCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/command.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaSynthesizeDesignCommand.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaSynthesizeDesignCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
 CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o
  /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.cpp
- /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
@@ -256,11 +282,27 @@ CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o
  /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.cpp
- /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.h
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.hpp
+CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgapool.cpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgapool.hpp
 CMakeFiles/FWS_server.dir/src/main.cpp.o
- /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.h
- /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.h
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/command.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaGenerateProgrammingFileCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaImplementDesignCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaRebuildProjectCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaResetFilesCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaSynthesizeDesignCommand.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/databaseconnector.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+ /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgapool.hpp
  /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/main.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString

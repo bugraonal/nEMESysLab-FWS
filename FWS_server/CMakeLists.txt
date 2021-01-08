@@ -21,10 +21,11 @@ INCLUDE_DIRECTORIES( ${Boost_INCLUDE_DIR} )
 
 # Source File Directory
 include_directories(./src)
+include_directories(./src/fpga)
+include_directories(./src/commands)
 
 # Linker Flags
 set(CMAKE_SHARED_LINKER_FLAGS "-lboost_system")
-
 
 add_executable(FWS_server 
 
@@ -32,13 +33,32 @@ add_executable(FWS_server
   src/main.cpp
 
   #Database
-  src/databaseconnector.h
+  src/databaseconnector.hpp
   src/databaseconnector.cpp
 
   #File System
-  src/filesystemcontroller.h
+  src/filesystemcontroller.hpp
   src/filesystemcontroller.cpp
 
+  #FPGA
+  src/fpga/fpga.hpp
+  src/fpga/fpga.cpp
+  src/fpga/fpgapool.hpp
+  src/fpga/fpgapool.cpp
+  
+  
+  #Commands
+  src/commands/command.hpp
+  src/commands/fpgaResetFilesCommand.hpp
+  src/commands/fpgaResetFilesCommand.cpp
+  src/commands/fpgaRebuildProjectCommand.hpp
+  src/commands/fpgaRebuildProjectCommand.cpp
+  src/commands/fpgaSynthesizeDesignCommand.hpp
+  src/commands/fpgaSynthesizeDesignCommand.cpp
+  src/commands/fpgaImplementDesignCommand.hpp
+  src/commands/fpgaImplementDesignCommand.cpp
+  src/commands/fpgaGenerateProgrammingFileCommand.hpp
+  src/commands/fpgaGenerateProgrammingFileCommand.cpp
   )
 
 target_include_directories(FWS_server PRIVATE ./src)

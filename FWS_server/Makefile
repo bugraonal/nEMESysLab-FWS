@@ -182,6 +182,141 @@ FWS_server_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.cpp.s
 .PHONY : FWS_server_autogen/mocs_compilation.cpp.s
 
+src/commands/fpgaGenerateProgrammingFileCommand.o: src/commands/fpgaGenerateProgrammingFileCommand.cpp.o
+
+.PHONY : src/commands/fpgaGenerateProgrammingFileCommand.o
+
+# target to build an object file
+src/commands/fpgaGenerateProgrammingFileCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o
+.PHONY : src/commands/fpgaGenerateProgrammingFileCommand.cpp.o
+
+src/commands/fpgaGenerateProgrammingFileCommand.i: src/commands/fpgaGenerateProgrammingFileCommand.cpp.i
+
+.PHONY : src/commands/fpgaGenerateProgrammingFileCommand.i
+
+# target to preprocess a source file
+src/commands/fpgaGenerateProgrammingFileCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.i
+.PHONY : src/commands/fpgaGenerateProgrammingFileCommand.cpp.i
+
+src/commands/fpgaGenerateProgrammingFileCommand.s: src/commands/fpgaGenerateProgrammingFileCommand.cpp.s
+
+.PHONY : src/commands/fpgaGenerateProgrammingFileCommand.s
+
+# target to generate assembly for a file
+src/commands/fpgaGenerateProgrammingFileCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.s
+.PHONY : src/commands/fpgaGenerateProgrammingFileCommand.cpp.s
+
+src/commands/fpgaImplementDesignCommand.o: src/commands/fpgaImplementDesignCommand.cpp.o
+
+.PHONY : src/commands/fpgaImplementDesignCommand.o
+
+# target to build an object file
+src/commands/fpgaImplementDesignCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o
+.PHONY : src/commands/fpgaImplementDesignCommand.cpp.o
+
+src/commands/fpgaImplementDesignCommand.i: src/commands/fpgaImplementDesignCommand.cpp.i
+
+.PHONY : src/commands/fpgaImplementDesignCommand.i
+
+# target to preprocess a source file
+src/commands/fpgaImplementDesignCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.i
+.PHONY : src/commands/fpgaImplementDesignCommand.cpp.i
+
+src/commands/fpgaImplementDesignCommand.s: src/commands/fpgaImplementDesignCommand.cpp.s
+
+.PHONY : src/commands/fpgaImplementDesignCommand.s
+
+# target to generate assembly for a file
+src/commands/fpgaImplementDesignCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.s
+.PHONY : src/commands/fpgaImplementDesignCommand.cpp.s
+
+src/commands/fpgaRebuildProjectCommand.o: src/commands/fpgaRebuildProjectCommand.cpp.o
+
+.PHONY : src/commands/fpgaRebuildProjectCommand.o
+
+# target to build an object file
+src/commands/fpgaRebuildProjectCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o
+.PHONY : src/commands/fpgaRebuildProjectCommand.cpp.o
+
+src/commands/fpgaRebuildProjectCommand.i: src/commands/fpgaRebuildProjectCommand.cpp.i
+
+.PHONY : src/commands/fpgaRebuildProjectCommand.i
+
+# target to preprocess a source file
+src/commands/fpgaRebuildProjectCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.i
+.PHONY : src/commands/fpgaRebuildProjectCommand.cpp.i
+
+src/commands/fpgaRebuildProjectCommand.s: src/commands/fpgaRebuildProjectCommand.cpp.s
+
+.PHONY : src/commands/fpgaRebuildProjectCommand.s
+
+# target to generate assembly for a file
+src/commands/fpgaRebuildProjectCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.s
+.PHONY : src/commands/fpgaRebuildProjectCommand.cpp.s
+
+src/commands/fpgaResetFilesCommand.o: src/commands/fpgaResetFilesCommand.cpp.o
+
+.PHONY : src/commands/fpgaResetFilesCommand.o
+
+# target to build an object file
+src/commands/fpgaResetFilesCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o
+.PHONY : src/commands/fpgaResetFilesCommand.cpp.o
+
+src/commands/fpgaResetFilesCommand.i: src/commands/fpgaResetFilesCommand.cpp.i
+
+.PHONY : src/commands/fpgaResetFilesCommand.i
+
+# target to preprocess a source file
+src/commands/fpgaResetFilesCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.i
+.PHONY : src/commands/fpgaResetFilesCommand.cpp.i
+
+src/commands/fpgaResetFilesCommand.s: src/commands/fpgaResetFilesCommand.cpp.s
+
+.PHONY : src/commands/fpgaResetFilesCommand.s
+
+# target to generate assembly for a file
+src/commands/fpgaResetFilesCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.s
+.PHONY : src/commands/fpgaResetFilesCommand.cpp.s
+
+src/commands/fpgaSynthesizeDesignCommand.o: src/commands/fpgaSynthesizeDesignCommand.cpp.o
+
+.PHONY : src/commands/fpgaSynthesizeDesignCommand.o
+
+# target to build an object file
+src/commands/fpgaSynthesizeDesignCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o
+.PHONY : src/commands/fpgaSynthesizeDesignCommand.cpp.o
+
+src/commands/fpgaSynthesizeDesignCommand.i: src/commands/fpgaSynthesizeDesignCommand.cpp.i
+
+.PHONY : src/commands/fpgaSynthesizeDesignCommand.i
+
+# target to preprocess a source file
+src/commands/fpgaSynthesizeDesignCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.i
+.PHONY : src/commands/fpgaSynthesizeDesignCommand.cpp.i
+
+src/commands/fpgaSynthesizeDesignCommand.s: src/commands/fpgaSynthesizeDesignCommand.cpp.s
+
+.PHONY : src/commands/fpgaSynthesizeDesignCommand.s
+
+# target to generate assembly for a file
+src/commands/fpgaSynthesizeDesignCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.s
+.PHONY : src/commands/fpgaSynthesizeDesignCommand.cpp.s
+
 src/databaseconnector.o: src/databaseconnector.cpp.o
 
 .PHONY : src/databaseconnector.o
@@ -236,6 +371,60 @@ src/filesystemcontroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.s
 .PHONY : src/filesystemcontroller.cpp.s
 
+src/fpga/fpga.o: src/fpga/fpga.cpp.o
+
+.PHONY : src/fpga/fpga.o
+
+# target to build an object file
+src/fpga/fpga.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o
+.PHONY : src/fpga/fpga.cpp.o
+
+src/fpga/fpga.i: src/fpga/fpga.cpp.i
+
+.PHONY : src/fpga/fpga.i
+
+# target to preprocess a source file
+src/fpga/fpga.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.i
+.PHONY : src/fpga/fpga.cpp.i
+
+src/fpga/fpga.s: src/fpga/fpga.cpp.s
+
+.PHONY : src/fpga/fpga.s
+
+# target to generate assembly for a file
+src/fpga/fpga.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.s
+.PHONY : src/fpga/fpga.cpp.s
+
+src/fpga/fpgapool.o: src/fpga/fpgapool.cpp.o
+
+.PHONY : src/fpga/fpgapool.o
+
+# target to build an object file
+src/fpga/fpgapool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o
+.PHONY : src/fpga/fpgapool.cpp.o
+
+src/fpga/fpgapool.i: src/fpga/fpgapool.cpp.i
+
+.PHONY : src/fpga/fpgapool.i
+
+# target to preprocess a source file
+src/fpga/fpgapool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.i
+.PHONY : src/fpga/fpgapool.cpp.i
+
+src/fpga/fpgapool.s: src/fpga/fpgapool.cpp.s
+
+.PHONY : src/fpga/fpgapool.s
+
+# target to generate assembly for a file
+src/fpga/fpgapool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FWS_server.dir/build.make CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.s
+.PHONY : src/fpga/fpgapool.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -276,12 +465,33 @@ help:
 	@echo "... FWS_server_autogen/mocs_compilation.o"
 	@echo "... FWS_server_autogen/mocs_compilation.i"
 	@echo "... FWS_server_autogen/mocs_compilation.s"
+	@echo "... src/commands/fpgaGenerateProgrammingFileCommand.o"
+	@echo "... src/commands/fpgaGenerateProgrammingFileCommand.i"
+	@echo "... src/commands/fpgaGenerateProgrammingFileCommand.s"
+	@echo "... src/commands/fpgaImplementDesignCommand.o"
+	@echo "... src/commands/fpgaImplementDesignCommand.i"
+	@echo "... src/commands/fpgaImplementDesignCommand.s"
+	@echo "... src/commands/fpgaRebuildProjectCommand.o"
+	@echo "... src/commands/fpgaRebuildProjectCommand.i"
+	@echo "... src/commands/fpgaRebuildProjectCommand.s"
+	@echo "... src/commands/fpgaResetFilesCommand.o"
+	@echo "... src/commands/fpgaResetFilesCommand.i"
+	@echo "... src/commands/fpgaResetFilesCommand.s"
+	@echo "... src/commands/fpgaSynthesizeDesignCommand.o"
+	@echo "... src/commands/fpgaSynthesizeDesignCommand.i"
+	@echo "... src/commands/fpgaSynthesizeDesignCommand.s"
 	@echo "... src/databaseconnector.o"
 	@echo "... src/databaseconnector.i"
 	@echo "... src/databaseconnector.s"
 	@echo "... src/filesystemcontroller.o"
 	@echo "... src/filesystemcontroller.i"
 	@echo "... src/filesystemcontroller.s"
+	@echo "... src/fpga/fpga.o"
+	@echo "... src/fpga/fpga.i"
+	@echo "... src/fpga/fpga.s"
+	@echo "... src/fpga/fpgapool.o"
+	@echo "... src/fpga/fpgapool.i"
+	@echo "... src/fpga/fpgapool.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

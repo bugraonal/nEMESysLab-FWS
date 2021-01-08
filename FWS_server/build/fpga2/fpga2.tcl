@@ -35,8 +35,8 @@
 #        when this script was generated.
 # 
 
-set myProject "fpga1"
-set myScript "fpga1.tcl"
+set myProject "fpga2"
+set myScript "fpga2.tcl"
 
 # 
 # Main (top-level) routines

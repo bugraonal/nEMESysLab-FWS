@@ -1,4 +1,4 @@
-#include "filesystemcontroller.h"
+#include "filesystemcontroller.hpp"
 
 FileSystemController::FileSystemController()
 { 
@@ -46,4 +46,12 @@ void FileSystemController::executeImplementCommand(std::string& fpga_id, std::st
   std::string output = "./output.txt";
   proc::child c(("timeout " + seconds + "s " +ISE_path + "/xtclsh " + fpga_path + "/fpga" + fpga_id + ".tcl " + "rebuild_project"), proc::std_out > output);
   c.wait();
+}
+
+std::string FileSystemController::getRoot(){
+  return root;
+}
+
+std::string FileSystemController::getISE_path(){
+  return ISE_path;
 }

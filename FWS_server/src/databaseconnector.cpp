@@ -1,4 +1,4 @@
-#include "databaseconnector.h"
+#include "databaseconnector.hpp"
 
 DataBaseConnector::DataBaseConnector(){
   db = QSqlDatabase::addDatabase("QMYSQL");
@@ -40,7 +40,8 @@ void DataBaseConnector::initFileBase(){
 
 std::vector<std::string>  DataBaseConnector::getTodaysHours(){
   std::vector<std::string> vec;
-  QSqlQuery query("SELECT * FROM TimesOfDay WHERE timeofday>time(now()) AND timeofday NOT IN(SELECT TIME(appointment) FROM Appointments WHERE DATE(appointment) = DATE(now()));");
+  //QSqlQuery query("SELECT * FROM TimesOfDay WHERE timeofday>time(now()) AND timeofday NOT IN(SELECT TIME(appointment) FROM Appointments WHERE DATE(appointment) = DATE(now()));");
+  QSqlQuery query("SELECT * FROM TimesOfDay WHERE timeofday>time(now()) AND timeofday NOT IN(SELECT TIME(appointment) FROM Appointments WHERE DATE(appointment) = DATE(now()) GROUP BY appointment HAVING count(fpga_id) = (SELECT COUNT(F.fpga_id) FROM FPGA AS F));");
   while (query.next()){
     std::string time = field2String(query.value(0));
     vec.push_back(time);
@@ -56,10 +57,51 @@ std::string DataBaseConnector::getRemainingSeconds(){
   return seconds;
 }
 
+void DataBaseConnector::registerFPGAForTime(int user_id, std::string time){
+  int fpga_id;
+  QSqlQuery query;
+  query.prepare("SELECT fpga_id FROM FPGA WHERE fpga_id NOT IN (SELECT fpga_id FROM Appointments WHERE TIME(appointment) = ?)");
+  query.addBindValue(time.c_str());
+  query.exec();
+  while (query.next()) {
+    fpga_id = std::stoi(field2String(query.value(0)));
+    break;
+  }
+  QSqlQuery query1;
+  std::cout << user_id << " " << fpga_id << " " << time << "\n";
+  query1.prepare("INSERT INTO Appointments (user_id, fpga_id, appointment) VALUES (?, ?, CONCAT(DATE(NOW()), ?));");
+  query1.addBindValue(user_id);
+  query1.addBindValue(fpga_id);
+  query1.addBindValue(time.c_str());
+  query1.exec();
+  qDebug() << query1.lastQuery();
+  qDebug() << query1.lastError();
+}
+
+int DataBaseConnector::getUserID(std::string mail) {
+  QSqlQuery query;
+  query.prepare("SELECT user_id FROM Users WHERE user_email = ?;");
+  query.addBindValue(mail.c_str());
+  query.exec();
+  while (query.next())
+    return std::stoi(field2String(query.value(0)));
+}
+
+
+std::vector<std::string> DataBaseConnector::getFPGAIDS(){
+  std::vector<std::string> vec;
+  QSqlQuery query;
+  query.prepare("SELECT fpga_id FROM FPGA;");
+  query.exec();
+  while(query.next())
+    vec.push_back(field2String(query.value(0)));
+  return vec;
+}
+
+
 bool DataBaseConnector::isOpen(){
     return db.isOpen();
 }
-
 
 
 std::string DataBaseConnector::field2String(QVariant s) {

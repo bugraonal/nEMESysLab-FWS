@@ -1,20 +1,13 @@
 #ifndef __COMMAND_H_
 #define __COMMAND_H_
 
-#include <iostream>
-#include <string>
+#include "../fpga/fpga.hpp"
+
 
 class Command {
-
-    std::string user_id;
-    std::string fpga_id;
-
-    Command (std::string user_id, std::string fpga_id) {
-        this->user_id = user_id;
-        this->fpga_id = fpga_id;
-    }
-    
-    virtual void execute();
+    public:
+        virtual ~Command(){};
+        virtual void execute() = 0;
 };
 
 #endif // __COMMAND_H_
