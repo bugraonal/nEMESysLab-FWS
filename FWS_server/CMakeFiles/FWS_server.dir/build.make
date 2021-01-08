@@ -128,22 +128,9 @@ CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.cpp -o CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.s
 
-CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o: CMakeFiles/FWS_server.dir/flags.make
-CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o: src/serverhandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/serverhandler.cpp
-
-CMakeFiles/FWS_server.dir/src/serverhandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FWS_server.dir/src/serverhandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/serverhandler.cpp > CMakeFiles/FWS_server.dir/src/serverhandler.cpp.i
-
-CMakeFiles/FWS_server.dir/src/serverhandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FWS_server.dir/src/serverhandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/serverhandler.cpp -o CMakeFiles/FWS_server.dir/src/serverhandler.cpp.s
-
 CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o: src/fpga/fpga.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.cpp
 
 CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.s: cmake_force
 
 CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o: src/fpga/fpgapool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgapool.cpp
 
 CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.s: cmake_force
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o: src/commands/fpgaResetFilesCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaResetFilesCommand.cpp
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.s: cmake_force
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o: src/commands/fpgaRebuildProjectCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaRebuildProjectCommand.cpp
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.i: cmake_force
@@ -195,7 +182,7 @@ CMakeFiles/FWS_server.dir/src/commands/fpgaRebuildProjectCommand.cpp.s: cmake_fo
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o: src/commands/fpgaSynthesizeDesignCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaSynthesizeDesignCommand.cpp
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.i: cmake_force
@@ -208,7 +195,7 @@ CMakeFiles/FWS_server.dir/src/commands/fpgaSynthesizeDesignCommand.cpp.s: cmake_
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o: src/commands/fpgaImplementDesignCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaImplementDesignCommand.cpp
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.i: cmake_force
@@ -221,7 +208,7 @@ CMakeFiles/FWS_server.dir/src/commands/fpgaImplementDesignCommand.cpp.s: cmake_f
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o: CMakeFiles/FWS_server.dir/flags.make
 CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o: src/commands/fpgaGenerateProgrammingFileCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.o -c /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaGenerateProgrammingFileCommand.cpp
 
 CMakeFiles/FWS_server.dir/src/commands/fpgaGenerateProgrammingFileCommand.cpp.i: cmake_force
@@ -238,7 +225,6 @@ FWS_server_OBJECTS = \
 "CMakeFiles/FWS_server.dir/src/main.cpp.o" \
 "CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o" \
 "CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o" \
-"CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o" \
 "CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o" \
 "CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o" \
 "CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o" \
@@ -254,7 +240,6 @@ build/FWS_server: CMakeFiles/FWS_server.dir/FWS_server_autogen/mocs_compilation.
 build/FWS_server: CMakeFiles/FWS_server.dir/src/main.cpp.o
 build/FWS_server: CMakeFiles/FWS_server.dir/src/databaseconnector.cpp.o
 build/FWS_server: CMakeFiles/FWS_server.dir/src/filesystemcontroller.cpp.o
-build/FWS_server: CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o
 build/FWS_server: CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o
 build/FWS_server: CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o
 build/FWS_server: CMakeFiles/FWS_server.dir/src/commands/fpgaResetFilesCommand.cpp.o
@@ -267,7 +252,7 @@ build/FWS_server: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.9.5
 build/FWS_server: lib/librpc.a
 build/FWS_server: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 build/FWS_server: CMakeFiles/FWS_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable build/FWS_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable build/FWS_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FWS_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -46,16 +46,14 @@ add_executable(FWS_server
   src/filesystemcontroller.hpp
   src/filesystemcontroller.cpp
 
-  #Server
-  src/serverhandler.hpp
-  src/serverhandler.cpp
-  
   #FPGA
+#  src/fpga/fpgaabstract.hpp
+#  src/fpga/fpgaempty.hpp
+#  src/fpga/fpgaempty.cpp
   src/fpga/fpga.hpp
   src/fpga/fpga.cpp
   src/fpga/fpgapool.hpp
   src/fpga/fpgapool.cpp
-  
   
   #Commands
   src/commands/command.hpp

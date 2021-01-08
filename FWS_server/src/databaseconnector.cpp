@@ -57,11 +57,11 @@ std::string DataBaseConnector::getRemainingSeconds(){
   return seconds;
 }
 
-void DataBaseConnector::registerFPGAForTime(int user_id, std::string time){
+int DataBaseConnector::registerFPGAForTime(int user_id, std::string time){
   int fpga_id;
   QSqlQuery query;
   query.prepare("SELECT fpga_id FROM FPGA WHERE fpga_id NOT IN (SELECT fpga_id FROM Appointments WHERE TIME(appointment) = ?)");
-  query.addBindValue(time.c_str());
+  query.addBindValue(time.substr(1).c_str());
   query.exec();
   while (query.next()) {
     fpga_id = std::stoi(field2String(query.value(0)));
@@ -74,8 +74,13 @@ void DataBaseConnector::registerFPGAForTime(int user_id, std::string time){
   query1.addBindValue(fpga_id);
   query1.addBindValue(time.c_str());
   query1.exec();
-  qDebug() << query1.lastQuery();
-  qDebug() << query1.lastError();
+  //qDebug() << query1.lastQuery();
+  //qDebug() << query1.lastError();
+  if (field2String(query1.lastError().databaseText()) == "") {
+    return 1;
+  } else {
+    return -1;
+  }
 }
 
 int DataBaseConnector::getUserID(std::string mail) {

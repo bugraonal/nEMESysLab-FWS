@@ -13,7 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/FWS_server.dir/src/fpga/fpga.cpp.o"
   "CMakeFiles/FWS_server.dir/src/fpga/fpgapool.cpp.o"
   "CMakeFiles/FWS_server.dir/src/main.cpp.o"
-  "CMakeFiles/FWS_server.dir/src/serverhandler.cpp.o"
   "build/FWS_server"
   "build/FWS_server.pdb"
 )

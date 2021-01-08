@@ -67,6 +67,10 @@ boost/property_tree/json_parser.hpp
 -
 
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpga.hpp
+fpgaabstract.hpp
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgaabstract.hpp
+
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgaabstract.hpp
 iostream
 -
 string
@@ -89,8 +93,8 @@ filesystemcontroller.hpp
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/filesystemcontroller.hpp
 fpga/fpgapool.hpp
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/fpga/fpgapool.hpp
-serverhandler.hpp
-/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/serverhandler.hpp
+rpc/server.h
+/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/rpc/server.h
 commands/fpgaResetFilesCommand.hpp
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaResetFilesCommand.hpp
 commands/fpgaRebuildProjectCommand.hpp
@@ -101,10 +105,6 @@ commands/fpgaImplementDesignCommand.hpp
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaImplementDesignCommand.hpp
 commands/fpgaGenerateProgrammingFileCommand.hpp
 /media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/commands/fpgaGenerateProgrammingFileCommand.hpp
-
-/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/serverhandler.hpp
-rpc/server.h
-/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/src/rpc/server.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 qdebug.h

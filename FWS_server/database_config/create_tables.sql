@@ -26,7 +26,7 @@ CREATE TABLE Appointments(
   user_id INT NOT NULL,
   fpga_id INT NOT NULL,
   appointment DATETIME NOT NULL,
-  PRIMARY KEY (user_id, fpga_id, appointment),
+  PRIMARY KEY (user_id, appointment),
   FOREIGN KEY (user_id) REFERENCES Users(user_id),
   FOREIGN KEY (fpga_id) REFERENCES FPGA(fpga_id)
 );

@@ -27,7 +27,7 @@ class DataBaseConnector
         void initFileBase();
         std::vector<std::string> getTodaysHours();
         std::string getRemainingSeconds();
-        void registerFPGAForTime(int user_id, std::string time);
+        int registerFPGAForTime(int user_id, std::string time);
         int getUserID(std::string mail);
         std::vector<std::string> getFPGAIDS();
         std::string checkLogin(std::string email, std::string pwd);

@@ -45,7 +45,7 @@ void FPGA::implementDesign(std::string seconds){
   fs::current_path(path);
   std::string output = "./output.txt";
   proc::child c(("timeout " + seconds + "s " + ISE_path + "/xtclsh " + path + "/fpga" + std::to_string(id) + ".tcl " + "implement_design"), proc::std_out > output);
-//  c.wait();   
+  c.wait();   
 }
 
 void FPGA::generateProgrammingFile(std::string seconds){
@@ -54,4 +54,8 @@ void FPGA::generateProgrammingFile(std::string seconds){
   std::string output = "./output.txt";
   proc::child c(("timeout " + seconds + "s " + ISE_path + "/xtclsh " + path + "/fpga" + std::to_string(id) + ".tcl " + "generate_programming_file"), proc::std_out > output);
   c.wait();   
+}
+
+int FPGA::getID(){
+  return this->id;
 }

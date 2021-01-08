@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/build/fpga2/top_module.xst" -ofn "/media/SharedFiles/Courses/CS/534/Term/nEMESysLab-FWS/FWS_server/build/fpga2/top_module.syr" 
