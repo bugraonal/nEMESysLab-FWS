@@ -48,6 +48,34 @@ int main()
     return std::string("> ") + result;
   });
 
+
+  srv.bind("available", [&](std::string const& s){ 
+    std::vector <std::string> tokens;
+    std::stringstream check1(s);
+    std::string intermediate;
+    while(getline(check1, intermediate, ' ')) 
+    { 
+      tokens.push_back(intermediate); 
+    }
+    std::vector<std::string> = dbc->getTodaysHours();
+    return std::string("> ") + "1";
+  });
+
+  
+  srv.bind("filesend", [&](std::string const& s){ 
+    std::vector <std::string> tokens;
+    std::stringstream check1(s);
+    std::string intermediate;
+    while(getline(check1, intermediate, ' ')) 
+    { 
+      tokens.push_back(intermediate); 
+    }
+    int fp_index = dbc->getFPGAbyUserID(tokens[0]);
+    fpgaResetFilesCommand cmd(fp.getFPGAbyID(fp_index));
+    cmd.execute();
+    return std::string("> ") + std::to_string(fp_index);
+  });
+  
   srv.bind("reset", [&](std::string const& s){ 
     std::vector <std::string> tokens;
     std::stringstream check1(s);
@@ -92,7 +120,6 @@ int main()
     return std::string("> ") + "1";
   });
 
-
   srv.bind("implement", [&](std::string const& s){ 
     std::vector <std::string> tokens;
     std::stringstream check1(s);
@@ -107,8 +134,22 @@ int main()
     cmd.execute();
     return std::string("> ") + "1";
   });
-  
-  
+
+
+  srv.bind("genereteFile", [&](std::string const& s){ 
+    std::vector <std::string> tokens;
+    std::stringstream check1(s);
+    std::string intermediate;
+    while(getline(check1, intermediate, ' ')) 
+    { 
+      tokens.push_back(intermediate); 
+    }
+    int fp_index = dbc->getFPGAbyUserID(tokens[0]);
+    std::string seconds = dbc->getRemainingSeconds();
+    fpgaGenerateProgrammingFileCommand cmd(fp.getFPGAbyID(fp_index), seconds);
+    cmd.execute();
+    return std::string("> ") + "1";
+  });
   
   constexpr size_t thread_count = 8;
 
