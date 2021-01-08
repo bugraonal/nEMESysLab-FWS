@@ -6,6 +6,7 @@ FileList::FileList(QWidget *parent) : QWidget(parent)
     listView = new QListWidget;
     addButton = new QPushButton("Add...");
     removeButton = new QPushButton("Remove");
+    sendButton = new QPushButton("Send");
     filesLabel = new QLabel("Files");
 
     QFrame *buttonsFrame = new QFrame();
@@ -16,8 +17,8 @@ FileList::FileList(QWidget *parent) : QWidget(parent)
     layout->addWidget(filesLabel, 0, 0);
     layout->addWidget(listView, 1, 0);
     buttonsLayout->addWidget(addButton, 0, 0);
-    buttonsLayout->addWidget(removeButton, 0, 1);
-    layout->addWidget(buttonsFrame, 2, 0);
+    buttonsLayout->addWidget(removeButton, 0, 1);;
+    layout->addWidget(sendButton, 3, 0);
 
 
     connect(addButton, &QPushButton::clicked, this, &FileList::addFile);

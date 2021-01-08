@@ -2,6 +2,7 @@
 #define APPOINTMENTDTO_H
 
 #include "dtointerface.h"
+#include <QTime>
 
 class AppointmentDTO : public DTOInterface {
 

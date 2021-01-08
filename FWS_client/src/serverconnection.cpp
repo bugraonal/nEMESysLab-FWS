@@ -13,6 +13,6 @@ bool ServerConnection::connectToServer() {
 }
 
 std::string ServerConnection::send(std::string funcName, DTOInterface dto) {
-    std::string response = rpcClient->call(funcName, dto.getData()).as<std::string>();
+    std::string response = rpcClient->call(funcName, userID + ";" + dto.getData()).as<std::string>();
     return response;
 }

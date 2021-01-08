@@ -30,9 +30,6 @@ add_executable(FWS_client
   src/filesmodel.cpp
   src/filesmodel.h
 
-  src/filescontroller.cpp
-  src/filescontroller.h
-
   src/filelist.cpp
   src/filelist.h
 
@@ -46,11 +43,19 @@ add_executable(FWS_client
   src/serverconnection.cpp
   src/serverconnection.h
 
-  src/dtointerface.h
-  src/appointmentlistdto.h
-  src/appointmentdto.h
-  src/credentialsdto.h
-  src/fileslistdto.h
+  src/connectionwidget.cpp
+  src/connectionwidget.h
+  src/connectionwidget.ui
+
+  src/DTO/dtointerface.h
+  src/DTO/appointmentlistdto.h
+  src/DTO/appointmentdto.h
+  src/DTO/credentialsdto.h
+  src/DTO/fileslistdto.h
+  src/DTO/commanddto.h
+
+  src/filetransfer.cpp
+  src/filetransfer.h
 
   src/picosha2.h
 

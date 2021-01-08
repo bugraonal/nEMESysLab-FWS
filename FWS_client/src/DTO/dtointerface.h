@@ -8,7 +8,6 @@ class DTOInterface {
 protected:
     std::string data;
 
-
 public:
     std::string getData() { return this->data; }
 };

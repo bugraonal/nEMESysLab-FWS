@@ -43,7 +43,9 @@ void LoginWindow::onAccept() {
      * will emit the login signal which will be transmitted to serverConnection
      * class.
     */
-    emit login(makeCredentials());
+    QString email = ui->emailLine->text();
+    QString pass = ui->passwordLine->text();
+    connection->send("login", CredentialsDTO(email, hashPassword(pass)));
 }
 
 void LoginWindow::onRegister() {
@@ -52,5 +54,7 @@ void LoginWindow::onRegister() {
      * will emit the registerUser signal which will be transmitted to serverConnection
      * class.
     */
-    emit registerUser(makeCredentials());
+    QString email = ui->emailLine->text();
+    QString pass = ui->passwordLine->text();
+    connection->send("register", CredentialsDTO(email, hashPassword(pass)));
 }
