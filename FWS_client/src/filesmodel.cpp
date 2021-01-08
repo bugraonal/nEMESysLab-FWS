@@ -1,6 +1,6 @@
 #include "filesmodel.h"
 
-FilesModel::FilesModel() : files{}
+FilesModel::FilesModel(ServerConnection &connection) : files{}, connection{connection}
 {
 
 }
@@ -28,6 +28,12 @@ void FilesModel::removeFile(QString fileName) {
                                [fileName](QString file) {
                                    return file.compare(fileName) == 0;
                               }), files.end());
+}
+
+void FilesModel::sendFiles() {
+    std::string fpgaID = connection.send("filesend", CommandDTO(""));
+    fileTransfer.sendFiles(files, fpgaID);
+
 }
 
 QVector<QString> FilesModel::getFileList() { return files; }

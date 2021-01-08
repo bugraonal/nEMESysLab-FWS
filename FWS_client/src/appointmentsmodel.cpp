@@ -1,6 +1,6 @@
 #include "appointmentsmodel.h"
 
-AppointmentsModel::AppointmentsModel()
+AppointmentsModel::AppointmentsModel(ServerConnection &connection) : connection{connection}
 {
 
 }
@@ -10,11 +10,9 @@ bool AppointmentsModel::addAppointment(QTime appointment) {
      * This function will add a new QFile to the list if the file exists in
      * the given path
     */
-    bool available = true && appointment > QTime::currentTime(); // = server.checkAvailableTime(appointment);
-    appointment = appointment.addSecs(-appointment.second()); // set seconds to 0
-    if (available)
-        appointments.append(appointment);
-    return available;
+    appointments.append(appointment);
+    connection.send("takeappointment", AppointmentDTO(appointment));
+    return true;
 }
 
 void AppointmentsModel::removeAppointment(QTime appointment) {

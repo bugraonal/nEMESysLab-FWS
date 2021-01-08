@@ -4,11 +4,14 @@
 
 #include <QVector>
 #include <QTime>
+#include "serverconnection.h"
+
+#include "DTO/appointmentdto.h"
 
 class AppointmentsModel
 {
 public:
-    AppointmentsModel();
+    AppointmentsModel(ServerConnection &connection);
 
     QVector<QTime> getAppointments();
     bool addAppointment(QTime appointment);
@@ -16,6 +19,7 @@ public:
 
 private:
     QVector<QTime> appointments;
+    ServerConnection &connection;
 };
 
 

@@ -28,6 +28,7 @@ private:
     QListWidget *listView;
     QPushButton *addButton;
     QPushButton *removeButton;
+    QPushButton *sendButton;
     QLabel *filesLabel;
 
 

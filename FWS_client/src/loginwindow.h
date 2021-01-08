@@ -6,6 +6,9 @@
 #include <QPushButton>
 #include "picosha2.h"
 
+#include "serverconnection.h"
+#include "DTO/credentialsdto.h"
+
 namespace Ui {
 class LoginWindow;
 }
@@ -18,9 +21,12 @@ public:
     explicit LoginWindow(QWidget *parent = nullptr);
     ~LoginWindow();
 
+    void setConnection(ServerConnection *connection) {this->connection = connection;}
+
 private:
     Ui::LoginWindow *ui;
 
+    ServerConnection *connection;
     QString hashPassword(QString pass);
 
     void onAccept();
