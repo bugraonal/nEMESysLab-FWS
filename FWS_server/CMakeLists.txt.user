@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.2, 2020-12-11T17:47:24. -->
+<!-- Written by QtCreator 4.13.2, 2021-01-07T21:07:37. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -364,7 +364,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/QtCreator-rdhTnu/qtc-cmake-pKLXRzIu</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_server-Desktop-Debug/build</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

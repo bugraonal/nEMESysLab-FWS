@@ -71,41 +71,73 @@ build CMakeFiles/FWS_client.dir/FWS_client_autogen/mocs_compilation.cpp.o: CXX_C
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/FWS_client.dir/FWS_client_autogen/mocs_compilation.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++1z
-  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/FWS_client.dir
   OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/FWS_client_autogen
 
-build CMakeFiles/FWS_client.dir/main.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/main.cpp || cmake_object_order_depends_target_FWS_client
+build CMakeFiles/FWS_client.dir/src/main.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/main.cpp || cmake_object_order_depends_target_FWS_client
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/FWS_client.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/main.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++1z
-  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/FWS_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
 
-build CMakeFiles/FWS_client.dir/mainwindow.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/mainwindow.cpp || cmake_object_order_depends_target_FWS_client
+build CMakeFiles/FWS_client.dir/src/mainwindow.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/mainwindow.cpp || cmake_object_order_depends_target_FWS_client
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/FWS_client.dir/mainwindow.cpp.o.d
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/mainwindow.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++1z
-  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/FWS_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
 
-build CMakeFiles/FWS_client.dir/loginwindow.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/loginwindow.cpp || cmake_object_order_depends_target_FWS_client
+build CMakeFiles/FWS_client.dir/src/loginwindow.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/loginwindow.cpp || cmake_object_order_depends_target_FWS_client
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/FWS_client.dir/loginwindow.cpp.o.d
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/loginwindow.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++1z
-  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/FWS_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
 
-build CMakeFiles/FWS_client.dir/filesmodel.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/filesmodel.cpp || cmake_object_order_depends_target_FWS_client
+build CMakeFiles/FWS_client.dir/src/filesmodel.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filesmodel.cpp || cmake_object_order_depends_target_FWS_client
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/FWS_client.dir/filesmodel.cpp.o.d
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/filesmodel.cpp.o.d
   FLAGS = -g -fPIC -std=gnu++1z
-  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/FWS_client.dir
-  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
+
+build CMakeFiles/FWS_client.dir/src/filescontroller.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filescontroller.cpp || cmake_object_order_depends_target_FWS_client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/filescontroller.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++1z
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
+
+build CMakeFiles/FWS_client.dir/src/filelist.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filelist.cpp || cmake_object_order_depends_target_FWS_client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/filelist.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++1z
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
+
+build CMakeFiles/FWS_client.dir/src/appointmentsview.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/appointmentsview.cpp || cmake_object_order_depends_target_FWS_client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/appointmentsview.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++1z
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
+
+build CMakeFiles/FWS_client.dir/src/appointmentsmodel.cpp.o: CXX_COMPILER__FWS_client_Debug /home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/appointmentsmodel.cpp || cmake_object_order_depends_target_FWS_client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/FWS_client.dir/src/appointmentsmodel.cpp.o.d
+  FLAGS = -g -fPIC -std=gnu++1z
+  INCLUDES = -I. -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client -IFWS_client_autogen/include -I/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtCore -isystem /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/./mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/FWS_client.dir
+  OBJECT_FILE_DIR = CMakeFiles/FWS_client.dir/src
 
 
 # =============================================================================
@@ -115,7 +147,7 @@ build CMakeFiles/FWS_client.dir/filesmodel.cpp.o: CXX_COMPILER__FWS_client_Debug
 #############################################
 # Link the executable FWS_client
 
-build FWS_client: CXX_EXECUTABLE_LINKER__FWS_client_Debug CMakeFiles/FWS_client.dir/FWS_client_autogen/mocs_compilation.cpp.o CMakeFiles/FWS_client.dir/main.cpp.o CMakeFiles/FWS_client.dir/mainwindow.cpp.o CMakeFiles/FWS_client.dir/loginwindow.cpp.o CMakeFiles/FWS_client.dir/filesmodel.cpp.o | /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Widgets.so.5.15.1 /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Gui.so.5.15.1 /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Core.so.5.15.1 || FWS_client_autogen FWS_client_autogen_timestamp_deps
+build FWS_client: CXX_EXECUTABLE_LINKER__FWS_client_Debug CMakeFiles/FWS_client.dir/FWS_client_autogen/mocs_compilation.cpp.o CMakeFiles/FWS_client.dir/src/main.cpp.o CMakeFiles/FWS_client.dir/src/mainwindow.cpp.o CMakeFiles/FWS_client.dir/src/loginwindow.cpp.o CMakeFiles/FWS_client.dir/src/filesmodel.cpp.o CMakeFiles/FWS_client.dir/src/filescontroller.cpp.o CMakeFiles/FWS_client.dir/src/filelist.cpp.o CMakeFiles/FWS_client.dir/src/appointmentsview.cpp.o CMakeFiles/FWS_client.dir/src/appointmentsmodel.cpp.o | /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Widgets.so.5.15.1 /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Gui.so.5.15.1 /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Core.so.5.15.1 || FWS_client_autogen FWS_client_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-rpath,/home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib  /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Widgets.so.5.15.1  /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Gui.so.5.15.1  /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Core.so.5.15.1
   OBJECT_DIR = CMakeFiles/FWS_client.dir
@@ -150,7 +182,7 @@ build FWS_client_autogen/timestamp: CUSTOM_COMMAND /home/bugra/disk2/tools/Qt/5.
 #############################################
 # Phony custom command for CMakeFiles/FWS_client_autogen_timestamp_deps
 
-build CMakeFiles/FWS_client_autogen_timestamp_deps: phony /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Widgets.so.5.15.1 /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/bin/moc /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/bin/uic
+build CMakeFiles/FWS_client_autogen_timestamp_deps: phony /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/lib/libQt5Widgets.so.5.15.1 /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/bin/uic /home/bugra/disk2/tools/Qt/5.15.1/gcc_64/bin/moc
 
 
 #############################################

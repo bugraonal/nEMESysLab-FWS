@@ -15,32 +15,34 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 add_executable(FWS_client
-  main.cpp
-  mainwindow.cpp
-  mainwindow.h
-  mainwindow.ui
+  src/main.cpp
+  src/mainwindow.cpp
+  src/mainwindow.h
+  src/mainwindow.ui
 
-  loginwindow.cpp
-  loginwindow.h
-  loginwindow.ui
+  src/loginwindow.cpp
+  src/loginwindow.h
+  src/loginwindow.ui
 
-  filesmodel.cpp
-  filesmodel.h
+  src/filesmodel.cpp
+  src/filesmodel.h
 
-  filescontroller.cpp
-  filescontroller.h
+  src/filescontroller.cpp
+  src/filescontroller.h
 
-  filelist.cpp
-  filelist.h
+  src/filelist.cpp
+  src/filelist.h
 
-  appointmentsview.cpp
-  appointmentsview.h
-  appointmentsview.ui
+  src/appointmentsview.cpp
+  src/appointmentsview.h
+  src/appointmentsview.ui
 
-  appointmentsmodel.cpp
-  appointmentsmodel.h
+  src/appointmentsmodel.cpp
+  src/appointmentsmodel.h
 
-  picosha2.h
+  src/picosha2.h
 
   )
 target_link_libraries(FWS_client PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+target_include_directories(FWS_client PUBLIC src)
