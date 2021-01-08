@@ -18,10 +18,18 @@ LoginWindow::~LoginWindow()
 
 
 QString LoginWindow::hashPassword(QString pass) {
+    /*
+     * This function uses the PicoSHA2 library's string hashing function
+     * to hash the password
+    */
     return QString(picosha2::hash256_hex_string(pass.toStdString()).c_str());
 }
 
 QString LoginWindow::makeCredentials(){
+    /*
+     * This function combines the email and the hashed password with a pipe ('|')
+     * seperator. It returns this as a QString
+    */
     QString email = ui->emailLine->text();
     QString pass = ui->passwordLine->text();
 
@@ -30,9 +38,19 @@ QString LoginWindow::makeCredentials(){
 }
 
 void LoginWindow::onAccept() {
+    /*
+     * This function is a slot triggered when the accpet button is pressed. It
+     * will emit the login signal which will be transmitted to serverConnection
+     * class.
+    */
     emit login(makeCredentials());
 }
 
 void LoginWindow::onRegister() {
+    /*
+     * This function is a slot triggered when the register button is pressed. It
+     * will emit the registerUser signal which will be transmitted to serverConnection
+     * class.
+    */
     emit registerUser(makeCredentials());
 }

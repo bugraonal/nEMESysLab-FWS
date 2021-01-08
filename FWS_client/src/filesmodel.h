@@ -5,6 +5,8 @@
 #include <QString>
 #include <QFile>
 
+#include <iostream>
+
 class FilesModel
 {
 public:
@@ -13,11 +15,11 @@ public:
     void addFile(QString fileName);
     void removeFile(QString fileName);
 
-    QVector<QFile> getFileList();
+    QVector<QString> getFileList();
 
 
 private:
-    QVector<QFile> files;
+    QVector<QString> files;
 
 };
 

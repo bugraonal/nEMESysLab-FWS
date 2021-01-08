@@ -11,7 +11,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -25,13 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 31,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 45,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 48,
 				"parent" : 0
 			}
 		]
@@ -80,6 +87,10 @@
 					"path" : "/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug/FWS_client_autogen/include"
 				},
 				{
+					"backtrace" : 3,
+					"path" : "/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src"
+				},
+				{
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include"
@@ -112,18 +123,22 @@
 				1,
 				2,
 				5,
-				8
+				8,
+				10,
+				12,
+				14,
+				17
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "FWS_client_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "FWS_client_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "FWS_client_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "FWS_client::@6890427a1f51a3e7e1df",
@@ -176,7 +191,11 @@
 				1,
 				2,
 				5,
-				8
+				8,
+				10,
+				12,
+				14,
+				17
 			]
 		},
 		{
@@ -185,7 +204,12 @@
 			[
 				3,
 				6,
-				9
+				9,
+				11,
+				13,
+				15,
+				18,
+				19
 			]
 		},
 		{
@@ -194,14 +218,15 @@
 			[
 				4,
 				7,
-				10
+				16,
+				20
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				21
 			]
 		}
 	],
@@ -217,50 +242,104 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "mainwindow.cpp",
+			"path" : "src/mainwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "mainwindow.h",
+			"path" : "src/mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "mainwindow.ui",
+			"path" : "src/mainwindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "loginwindow.cpp",
+			"path" : "src/loginwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "loginwindow.h",
+			"path" : "src/loginwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "loginwindow.ui",
+			"path" : "src/loginwindow.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "filesmodel.cpp",
+			"path" : "src/filesmodel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "filesmodel.h",
+			"path" : "src/filesmodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/filescontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/filescontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/filelist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/filelist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/appointmentsview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/appointmentsview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/appointmentsview.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/appointmentsmodel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/appointmentsmodel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/picosha2.h",
 			"sourceGroupIndex" : 1
 		},
 		{

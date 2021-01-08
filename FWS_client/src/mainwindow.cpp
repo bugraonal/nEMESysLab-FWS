@@ -17,3 +17,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::setFilesModel(FilesModel *model) {
+    ui->filesList->setFilesModel(model);
+}
+
+void MainWindow::setAppointmentsModel(AppointmentsModel *model) {
+    ui->appointmentsView->setAppointmentsModel(model);
+}

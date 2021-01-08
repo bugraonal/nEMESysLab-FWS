@@ -87,24 +87,44 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/filescontroller.h",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/appointmentsmodel.h",
 			"MU",
-			"EWIEGA46WW/moc_filescontroller.cpp"
+			"UVLADIE3JM/moc_appointmentsmodel.cpp"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/filesmodel.h",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/appointmentsview.h",
 			"MU",
-			"EWIEGA46WW/moc_filesmodel.cpp"
+			"UVLADIE3JM/moc_appointmentsview.cpp"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/loginwindow.h",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filelist.h",
 			"MU",
-			"EWIEGA46WW/moc_loginwindow.cpp"
+			"UVLADIE3JM/moc_filelist.cpp"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/mainwindow.h",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filescontroller.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp"
+			"UVLADIE3JM/moc_filescontroller.cpp"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filesmodel.h",
+			"MU",
+			"UVLADIE3JM/moc_filesmodel.cpp"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/loginwindow.h",
+			"MU",
+			"UVLADIE3JM/moc_loginwindow.cpp"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/mainwindow.h",
+			"MU",
+			"UVLADIE3JM/moc_mainwindow.cpp"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/picosha2.h",
+			"MU",
+			"UVLADIE3JM/moc_picosha2.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -122,6 +142,7 @@
 	[
 		"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/build-FWS_client-Desktop-Debug",
 		"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client",
+		"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src",
 		"/home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include",
 		"/home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtWidgets",
 		"/home/bugra/disk2/tools/Qt/5.15.1/gcc_64/include/QtGui",
@@ -161,23 +182,35 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/filescontroller.cpp",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/appointmentsmodel.cpp",
 			"MU"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/filesmodel.cpp",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/appointmentsview.cpp",
 			"MU"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/loginwindow.cpp",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filelist.cpp",
 			"MU"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/main.cpp",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filescontroller.cpp",
 			"MU"
 		],
 		[
-			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/mainwindow.cpp",
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/filesmodel.cpp",
+			"MU"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/loginwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/main.cpp",
+			"MU"
+		],
+		[
+			"/home/bugra/Ozu/CS_534/Project/nEMESysLab_FWS/FWS_client/src/mainwindow.cpp",
 			"MU"
 		]
 	],
