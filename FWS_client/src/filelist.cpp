@@ -31,7 +31,7 @@ void FileList::setFilesModel(FilesModel *filesModel) { this-> filesModel = files
 
 void FileList::addFile() {
     QFileDialog *diag = new QFileDialog();
-    diag->setNameFilter("Verilog (*.v *.sv *.bit)");
+    diag->setNameFilter("Verilog & Contraints (*.v *.sv *.ucf)");
     diag->setFileMode(QFileDialog::ExistingFiles);
     if (diag->exec()) {
         for (auto f : diag->selectedFiles()) {

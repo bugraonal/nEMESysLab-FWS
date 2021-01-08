@@ -11,8 +11,11 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+find_package(Threads REQUIRED)
 
 add_executable(FWS_client
   src/main.cpp
@@ -40,9 +43,18 @@ add_executable(FWS_client
   src/appointmentsmodel.cpp
   src/appointmentsmodel.h
 
+  src/serverconnection.cpp
+  src/serverconnection.h
+
+  src/dtointerface.h
+  src/appointmentlistdto.h
+  src/appointmentdto.h
+  src/credentialsdto.h
+  src/fileslistdto.h
+
   src/picosha2.h
 
   )
-target_link_libraries(FWS_client PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(FWS_client PRIVATE Qt${QT_VERSION_MAJOR}::Widgets ${PROJECT_SOURCE_DIR}/lib/librpc.a Threads::Threads)
 
-target_include_directories(FWS_client PUBLIC src)
+target_include_directories(FWS_client PUBLIC src include)

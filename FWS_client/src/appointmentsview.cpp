@@ -7,7 +7,6 @@ AppointmentsView::AppointmentsView(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    ui->timeEdit->setTime(QTime::currentTime());
 
     connect(ui->getAppointmentButton, &QPushButton::clicked, this, &AppointmentsView::addAppointment);
     connect(ui->removeAppointmentButton, &QPushButton::clicked, this, &AppointmentsView::removeAppointment);
@@ -23,7 +22,7 @@ AppointmentsView::~AppointmentsView()
 
 void AppointmentsView::addAppointment() {
 
-    QTime time = ui->timeEdit->time();
+    QTime time = QTime::fromString(ui->timeBox->currentText());
     bool added = model->addAppointment(time);
     if (added) {
         ui->listWidget->addItem(time.toString());
@@ -36,7 +35,7 @@ void AppointmentsView::addAppointment() {
 
 void AppointmentsView::removeAppointment() {
 
-    QTime time = ui->timeEdit->time();
+    QTime time = QTime::fromString(ui->timeBox->currentText());
     model->removeAppointment(time);
     delete ui->listWidget->takeItem(ui->listWidget->row(ui->listWidget->currentItem()));
 
